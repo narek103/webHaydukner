@@ -1,15 +1,11 @@
 body {
+  background-image: url('./data/images/file-g1CdfTuFjuk0mgmG15k7rb0D\ \(1\).jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  /* background: linear-gradient(180deg, #D90012, #0033A0, #FFA500); */
-  color: white;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: "";
-  color: #333;
+  padding: 0;
 }
 
 .container {
@@ -68,7 +64,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 10px solid; /* Default border to apply gradient */
-  border-image: linear-gradient(to right, #d90000, #0033a0, #ff7f00) 1; /* Gradient border (from Red, Blue, Orange) */
+  border: 10px solid; 
+  border-image: linear-gradient(to right, #d90000, #0033a0, #ff7f00) 1;
 }
 
