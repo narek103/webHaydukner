@@ -1,9 +1,7 @@
 
-
 import React, { useState } from 'react';
 import './App.css';
 import {heroes} from './data/heroesData';
-
 function App() {
   const [selectedHero, setSelectedHero] = useState(null);
 
